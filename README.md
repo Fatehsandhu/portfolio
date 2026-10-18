@@ -24,7 +24,11 @@ Before going live:
 
 ## Deploy
 
-The easiest option is [Vercel](https://vercel.com/new): import this GitHub repo and it builds with no extra config. Every push to `main` redeploys.
+Live at **https://fatehsandhu.github.io**.
+
+The site builds to static files (`output: "export"` in `next.config.ts`) and deploys to GitHub Pages through `.github/workflows/deploy.yml`. Every push to `master` rebuilds and redeploys; progress shows under the repo's **Actions** tab.
+
+The previous 2017 site is preserved on the `archive-2017` branch.
 
 ## Structure
 
